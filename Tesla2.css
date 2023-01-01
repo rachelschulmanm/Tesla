@@ -1,0 +1,38 @@
+.container{
+    position:relative;
+}
+.-box{
+  
+}
+.box12{ 
+     top: 0px;
+     right: 0px;
+      position: fixed;
+ 
+    height:50%;
+    width: 100%;
+   background-image: url("./page3.jpg") ;
+   background-size: cover;
+}
+.box6{
+    position: relative;
+    border: 10px;
+    overflow: auto;
+    /* border-bottom: 2px #fff solid; */
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    height: 120px;
+    width: 55%;
+    top: 280px;
+  }
+  .box6 li{
+    line-height: 1.5em;
+    margin: 25px;
+    float: left;
+  }
+  .box6 li h3{
+    font: bold;
+    font-size: 25px;
+  }
+  .box6 li p{font-size: smaller;}

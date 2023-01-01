@@ -47,49 +47,28 @@ table {
 
 
 body{
-    
+   position: sticky;
     background-image: url('./Model-3-Main-Hero-Desktop-LHD.jpg') ;
     background-repeat: no-repeat; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
      background-size: cover; 
-
+     font-family: 'Gotham SSm', sans-serif;
 }
 #box{
-  display: block;
-   /* position: fixed; */
-   border: 2px red solid;
-   overflow: auto;
+  /* display: block; */
+   position: relative;
+   /* border: 2px red solid; */
+   overflow: fixed;
   height: 60px;
 }
-#box1{
-    margin-top: 10px;
-    position:relative;
-    border: 2px red solid;
-    overflow: auto;
-    color: #fff;
-    padding: 10px;
-  margin-right: 0px;
-    width: 30%;
-}
-
-#box1{
-    /* border: 2px red solid; */
-    position: relative;
-    float: left;
-    left: 10px;
-  
-}
-svg{
-    position: relative;
-   }
 
 #box2{
     cursor: pointer;
     margin-top: 10px;
     position: relative;
     /* border: 2px red solid; */
-    overflow: auto;
+    overflow:fixed;
     color: #fff;
      width: 68%;
      top: 10px;
@@ -97,16 +76,35 @@ svg{
      margin-left: 450px;
 height: 50px;
   }
+  #box1{
+    /* height: 80px;
+    width: 20%;
+    padding-left: 50px;
+       float: left;
+     position:relative;
+    
+   overflow: auto;
+     margin-right: 10px; */
+     /* border: 2px red solid;   */
+         }
+#box1 a{
+ position: relative;
+ top: 0%;
+ float: left;
+ margin-left: 15px;
+ margin-top: -15px;
+}        
 #box3{
 float: left;
 /* border: 2px red solid; */
 position: relative;
+font-size: 10px;
 
 }
 
  .box li:hover{
     
-    background-color: rgb(79, 78, 76);
+    background-color: #404c5c;
 
 }
 #box4{
@@ -115,15 +113,17 @@ position: relative;
     float:right;
         }
     li{
-        font-size: 20px;
-   
-      padding: 10px 10px;
+        font-size: 18px;
+         padding: 10px 10px;
         display: inline;
-       margin: 5px;
-        margin-bottom: 5px;
+       margin: 0, 8px;
+        /* margin-bottom: 5px; */
       position: relative;
     }
     #box5{
+        text-align: justify;
+        font-family: 'Gotham SSm', sans-serif;
+        font: bold;
         /* border: 2px red solid; */
         position: relative;
          overflow: auto;
@@ -133,8 +133,9 @@ position: relative;
    margin-top:  3%;
     }
     #box5 h1{
-    color: #fff;
-  font-size: 50px;
+        font-family: 'Gotham SSm', sans-serif;
+        color: #fff;
+  font-size: 40px;
     text-align: justify;
     }
 .schudle{color: #fff;
@@ -147,31 +148,113 @@ position: relative;
 }
 .msg{color: #fff;
      /* border: 2px red solid;  */
-    margin-left: 88%;
-    margin-right: 5%;
-    margin-top: 20%;
+     margin-left: 93%;
+    margin-top: 23%;
      position: fixed;
-     overflow: auto;
-     
+      overflow: visible; 
+     height: 30px;
+    
+}  
+button{
+  height: 60px;
+  width: 60px;
+  background-color: #fff; 
 }
 .msg button, span{
     overflow: auto;
     border-radius: 50%;
-   position: relative
+   position: relative;
    float: right;
    border: #fff;
    cursor: pointer;
    z-index: 12;
-  
-
 }
+
 .msg button:hover{
 
     
 }
 span{
-padding: 14px 14px;
+  margin: 15px;
+  
 }
+.buy-now{
+    position: relative;
+   
+   
+
+}
+.buy-now a{
+    border: 15px;
+    color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+}
+.buy-now a{
+    border: 3px #fff solid;
+    border-radius: 5px;
+    background: none;
+    width: 165px;
+    height: 40px;
+    padding: 7px 50px;
+   font-size: 16px;
+}
+
+.buy-now a:hover{
+  color: black;
+  background: #fff;
+}
+
+.box6{
+    position: relative;
+    border: 10px;
+    overflow: auto;
+    /* border-bottom: 2px #fff solid; */
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    height: 120px;
+    width: 55%;
+    top: 280px;
+  }
+  .box6 li{
+    line-height: 1.5em;
+    margin: 35px;
+    float: left;
+  }
+  .box6 li h3{
+    font: bold;
+    font-size: 25px;
+  }
+  .box6 li p{font-size: smaller;}
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  #down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+ p i{
+    position: relative;
+    margin: 10px;
+    overflow: auto;
+    /* border-bottom: 2px #fff solid; */
+    left: 49%;
+   
+    margin: auto;
+    height: 12px;
+    width: 12px;
+    top: 310px;
+ }
+
+
+
+
+
 
 
 
